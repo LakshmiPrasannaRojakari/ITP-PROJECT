@@ -1,0 +1,55 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+
+# next.js
+/.next/
+/out/
+next-env.d.ts
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+*.cer
+*.crt
+*.der
+*.pfx
+*.p12
+
+# certificates and local keys (never commit)
+/certs
+/config/certs
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# local env files (NEVER commit real secrets)
+.env
+.env.local
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# prisma generated client
+/src/generated/prisma
+
+# test artefacts
+/coverage
+/test-results
+
+# module 5 document storage (served only through the authenticated API routes)
+/storage
+
+# sensitive Aadhaar offline e-KYC test or candidate upload packages
+*.zip
+*.xml
+
+
